@@ -8,7 +8,7 @@
     <levelScore>4000</levelScore>
     <timeInGame>20.10.2022 2:00:00</timeInGame>
     <numberOfGames>5</numberOfGames>
-    <last>true</last>
+    <last>false</last>
   </user>
   <user name="ddd">
     <id>1</id>
