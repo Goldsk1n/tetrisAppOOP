@@ -1,1 +1,25 @@
-System.Xml.XmlDocument
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user name="GitTest">
+    <id>0</id>
+    <pass></pass>
+    <score>1000</score>
+    <record>2000</record>
+    <level>2</level>
+    <levelScore>4000</levelScore>
+    <timeInGame>20.10.2022 2:00:00</timeInGame>
+    <numberOfGames>5</numberOfGames>
+    <last>true</last>
+  </user>
+  <user name="123123">
+    <id>1</id>
+    <pass>123123</pass>
+    <score>0</score>
+    <record>0</record>
+    <level>1</level>
+    <levelScore>0</levelScore>
+    <timeInGame>0:00:00</timeInGame>
+    <numberOfGames>0</numberOfGames>
+    <last>true</last>
+  </user>
+</users>
