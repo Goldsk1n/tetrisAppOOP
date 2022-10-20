@@ -8,28 +8,6 @@
     <levelScore>4000</levelScore>
     <timeInGame>20.10.2022 2:00:00</timeInGame>
     <numberOfGames>5</numberOfGames>
-    <last>false</last>
-  </user>
-  <user name="ddd">
-    <id>1</id>
-    <pass>ddd</pass>
-    <score>0</score>
-    <record>0</record>
-    <level>1</level>
-    <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
-    <numberOfGames>0</numberOfGames>
-    <last>true</last>
-  </user>
-  <user name="fdd">
-    <id>2</id>
-    <pass>fdd</pass>
-    <score>0</score>
-    <record>0</record>
-    <level>1</level>
-    <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
-    <numberOfGames>0</numberOfGames>
     <last>true</last>
   </user>
 </users>
