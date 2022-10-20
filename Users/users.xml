@@ -1,3 +1,14 @@
-sasas
-asdad
-asd
+<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user name="Гість">
+    <id>0</id>
+    <pass></pass>
+    <score>0</score>
+    <record>0</record>
+    <level>1</level>
+    <levelScore>0</levelScore>
+    <timeInGame>20.10.2022 0:00:00</timeInGame>
+    <numberOfGames>0</numberOfGames>
+    <last>true</last>
+  </user>
+</users>
