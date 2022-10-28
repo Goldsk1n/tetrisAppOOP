@@ -21,15 +21,4 @@
     <numberOfGames>1</numberOfGames>
     <last>true</last>
   </user>
-  <user name="zoid">
-    <id>2</id>
-    <pass>2233</pass>
-    <score>0</score>
-    <record>0</record>
-    <level>1</level>
-    <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
-    <numberOfGames>0</numberOfGames>
-    <last>true</last>
-  </user>
 </users>
