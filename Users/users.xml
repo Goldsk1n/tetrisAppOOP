@@ -1,1 +1,24 @@
-<users><user name="GitHubTest"><id>0</id><pass></pass><score>1092</score><record>2000</record><level>1</level><levelScore>1092</levelScore><timeInGame>20.10.2022 2:01:32</timeInGame><numberOfGames>8</numberOfGames><last>false</last></user><user name="danilo"><id>1</id><pass>123123</pass><score>22</score><record>22</record><level>1</level><levelScore>22</levelScore><timeInGame>28.10.2022 0:00:21</timeInGame><numberOfGames>1</numberOfGames><last>true</last></user></users>
+<users>
+  <user name="GitHubTest">
+    <id>0</id>
+    <pass></pass>
+    <score>1092</score>
+    <record>2000</record>
+    <level>1</level>
+    <levelScore>1092</levelScore>
+    <timeInGame>20.10.2022 2:01:32</timeInGame>
+    <numberOfGames>8</numberOfGames>
+    <last>false</last>
+  </user>
+  <user name="danilo">
+    <id>1</id>
+    <pass>123123</pass>
+    <score>22</score>
+    <record>22</record>
+    <level>1</level>
+    <levelScore>22</levelScore>
+    <timeInGame>28.10.2022 0:00:21</timeInGame>
+    <numberOfGames>1</numberOfGames>
+    <last>true</last>
+  </user>
+</users>
