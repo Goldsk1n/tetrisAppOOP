@@ -1,1 +1,57 @@
-<users><user name="GitHubTest"><id>0</id><pass></pass><score>0</score><record>0</record><level>1</level><levelScore>0</levelScore><timeInGame>00:00:00</timeInGame><numberOfGames>8</numberOfGames><last>false</last></user><user name="danilo"><id>1</id><pass>123123</pass><score>1300</score><record>600</record><level>1</level><levelScore>1300</levelScore><timeInGame>00:00:58</timeInGame><numberOfGames>3</numberOfGames><last>false</last></user><user name="bruh"><id>2</id><pass>4444</pass><score>2900</score><record>2900</record><level>1</level><levelScore>29</levelScore><timeInGame>0:00:29</timeInGame><numberOfGames>1</numberOfGames><last>false</last></user><user name="sss"><id>3</id><pass>1234</pass><score>8100</score><record>800</record><level>1</level><levelScore>813</levelScore><timeInGame>0:03:39</timeInGame><numberOfGames>1</numberOfGames><last>false</last></user><user name="duma"><id>4</id><pass>3333</pass><score>0</score><record>0</record><level>1</level><levelScore>0</levelScore><timeInGame>00:00:00</timeInGame><numberOfGames>0</numberOfGames><last>false</last></user></users>
+<users>
+  <user name="GitHubTest">
+    <id>0</id>
+    <pass></pass>
+    <score>0</score>
+    <record>0</record>
+    <level>1</level>
+    <levelScore>0</levelScore>
+    <timeInGame>00:00:00</timeInGame>
+    <numberOfGames>8</numberOfGames>
+    <last>false</last>
+  </user>
+  <user name="danilo">
+    <id>1</id>
+    <pass>123123</pass>
+    <score>1300</score>
+    <record>600</record>
+    <level>1</level>
+    <levelScore>1300</levelScore>
+    <timeInGame>00:00:58</timeInGame>
+    <numberOfGames>3</numberOfGames>
+    <last>false</last>
+  </user>
+  <user name="bruh">
+    <id>2</id>
+    <pass>4444</pass>
+    <score>2900</score>
+    <record>2900</record>
+    <level>1</level>
+    <levelScore>29</levelScore>
+    <timeInGame>0:00:29</timeInGame>
+    <numberOfGames>1</numberOfGames>
+    <last>false</last>
+  </user>
+  <user name="sss">
+    <id>3</id>
+    <pass>1234</pass>
+    <score>8100</score>
+    <record>800</record>
+    <level>1</level>
+    <levelScore>813</levelScore>
+    <timeInGame>0:03:39</timeInGame>
+    <numberOfGames>1</numberOfGames>
+    <last>false</last>
+  </user>
+  <user name="duma">
+    <id>4</id>
+    <pass>3333</pass>
+    <score>0</score>
+    <record>0</record>
+    <level>1</level>
+    <levelScore>0</levelScore>
+    <timeInGame>00:00:00</timeInGame>
+    <numberOfGames>0</numberOfGames>
+    <last>false</last>
+  </user>
+</users>
