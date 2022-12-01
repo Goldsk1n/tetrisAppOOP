@@ -13,44 +13,44 @@
   <user name="player1">
     <id>1</id>
     <pass>abcdef</pass>
-    <score>0</score>
-    <record>0</record>
+    <score>1000</score>
+    <record>1000</record>
     <level>1</level>
     <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
+    <timeInGame>0:12:04</timeInGame>
     <numberOfGames>0</numberOfGames>
     <last>false</last>
   </user>
   <user name="player2">
     <id>2</id>
     <pass>abcdef</pass>
-    <score>0</score>
-    <record>0</record>
+    <score>1000</score>
+    <record>200</record>
     <level>1</level>
     <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
+    <timeInGame>0:09:10</timeInGame>
     <numberOfGames>0</numberOfGames>
     <last>false</last>
   </user>
   <user name="player3">
     <id>3</id>
     <pass>abcdef</pass>
-    <score>0</score>
-    <record>0</record>
+    <score>5000</score>
+    <record>2000</record>
     <level>1</level>
     <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
+    <timeInGame>0:29:33</timeInGame>
     <numberOfGames>0</numberOfGames>
     <last>false</last>
   </user>
   <user name="player4">
     <id>4</id>
     <pass>abcdef</pass>
-    <score>0</score>
-    <record>0</record>
+    <score>3300</score>
+    <record>300</record>
     <level>1</level>
     <levelScore>0</levelScore>
-    <timeInGame>0:00:00</timeInGame>
+    <timeInGame>0:01:20</timeInGame>
     <numberOfGames>0</numberOfGames>
     <last>false</last>
   </user>
