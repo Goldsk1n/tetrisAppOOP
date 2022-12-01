@@ -2,13 +2,13 @@
   <user name="GitHubTest">
     <id>0</id>
     <pass></pass>
-    <score>1100</score>
-    <record>1000</record>
+    <score>0</score>
+    <record>0</record>
     <level>1</level>
-    <levelScore>1092</levelScore>
-    <timeInGame>02:01:32</timeInGame>
+    <levelScore>0</levelScore>
+    <timeInGame>00:00:00</timeInGame>
     <numberOfGames>8</numberOfGames>
-    <last>false</last>
+    <last>true</last>
   </user>
   <user name="danilo">
     <id>1</id>
