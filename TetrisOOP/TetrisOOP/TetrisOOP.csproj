@@ -32,12 +32,49 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\tetris_128px.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Win32.Registry, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.4.7.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.2.1.0\lib\net472\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Asio, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Asio.2.1.0\lib\netstandard2.0\NAudio.Asio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Core, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Core.2.1.0\lib\netstandard2.0\NAudio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Midi, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Midi.2.1.0\lib\netstandard2.0\NAudio.Midi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Wasapi, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.Wasapi.2.1.0\lib\netstandard2.0\NAudio.Wasapi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinForms, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.WinForms.2.1.0\lib\net472\NAudio.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.WinMM, Version=2.1.0.0, Culture=neutral, PublicKeyToken=e279aa5131008a41, processorArchitecture=MSIL">
+      <HintPath>..\packages\NAudio.WinMM.2.1.0\lib\netstandard2.0\NAudio.WinMM.dll</HintPath>
+    </Reference>
     <Reference Include="Octokit, Version=4.0.0.0, Culture=neutral, PublicKeyToken=0be8860aee462442, processorArchitecture=MSIL">
       <HintPath>..\packages\Octokit.4.0.0\lib\netstandard2.0\Octokit.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.7.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.7.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -110,6 +147,7 @@
     <Compile Include="Data\GUI\UserStatistics\UserStatistics.Designer.cs">
       <DependentUpon>UserStatistics.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\Modules\Audio\Audio.cs" />
     <Compile Include="Data\Modules\RandomBag\RandomBag.cs" />
     <Compile Include="Data\Modules\Users\User.cs" />
     <Compile Include="Data\Modules\Users\UserManager.cs" />
@@ -197,17 +235,39 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\allShapes.jpg" />
     <Content Include="Resources\BackBox.jpg" />
+    <None Include="Resources\Cover_ Megaman 4 Dr Cossack Stage 3 &amp; 4 %281%29.wav" />
+    <None Include="Resources\Cover_ Megaman 4 Dr Cossack Stage 3 &amp; 4.mp3" />
+    <None Include="Resources\cover-megaman-4-dr-cossack-stage-3-4_GLhwRABU.mp3" />
+    <None Include="Resources\line.mp3" />
+    <None Include="Resources\level.mp3" />
     <Content Include="Resources\logo.png" />
+    <None Include="Resources\looperman-l-1018967-0078063-atlasblue-the-legend-of-zelda-8bit-synth.wav" />
+    <None Include="Resources\looperman-l-1018967-0078063-atlasblue-the-legend-of-zelda-8bit-synth.mp3" />
+    <None Include="Resources\looperman-l-1018967-0078063-atlasblue-the-legend-of-zelda-8bit-synth %28mp3cut.net%29.mp3" />
+    <None Include="Resources\move.wav" />
+    <None Include="Resources\move.mp3" />
+    <None Include="Resources\over.mp3" />
     <Content Include="Resources\pause-off.png" />
     <Content Include="Resources\pause.png" />
+    <None Include="Resources\placed.mp3" />
     <Content Include="Resources\spriteBG.jpg" />
     <Content Include="Resources\tetris_128px.ico" />
     <None Include="Resources\[YT2mp3.info] - Never Gonna Give You Up %288 Bit Remix Cover Version%29 [Tribute to Rick Astley] - 8 Bit Universe %28320kbps%29 %281%29.wav" />
     <None Include="Resources\[YT2mp3.info] - Get Lucky %288 Bit Remix Cover Version%29 [Tribute to Daft Punk] - 8 Bit Universe %28320kbps%29 %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

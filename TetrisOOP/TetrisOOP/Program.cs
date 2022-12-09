@@ -6,13 +6,13 @@ namespace TetrisOOP
 {
     static class Program
     {
-        /// <summary>Главная точка входа для приложения.</summary>
+        /// <summary>Головна точка входу для додатку.</summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new StartScreen());
         }
     }
 }
